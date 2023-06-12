@@ -1,0 +1,39 @@
+Paso 1 crear la app con:
+-yarn create vite
+
+Pones nombre, seleccionas react y tipo js.
+Luego borro los archivos no necesarios, dejo solo el main.
+
+Creo mi componente principal. 
+
+Con el snipped
+-rafc
+Creo el componente...
+
+Reemplazo en main, y luego desde la linea de comando cmd llamo a yarn o npm install para que me cree el node modules.
+Finalmente puedo correr el proyecto.
+-yarn dev
+Ejecuta la app.
+
+
+Luego defino mas o menos los componentes que voy a necesitar en el app, input de busqueda, lista de resultado, por ejemplo.
+
+En el Componente principal, GifExpertApp creo un hook useState para tener en memoria que se buscó...
+
+
+--Para traer los datos: fetch...
+
+
+Cuando quiero hacer el build debo correr el comando:
+-yarn build
+O puedo crequear en el package.json como es el comando en la sección de scripts.
+Con esto se crea una carpeta dist donde voy a encontrar el html, js, css de la app.
+Carpeta dist/assets tambien. Debo copiar todo lo que hay en dist y eso lo subo al server.
+
+Servidor web para pruebas locales:
+Puedo instalar un servidor http local con npm:
+-npm install --global http-server
+Con eso node me instala un server. Luego para probar voy a la carpeta que quiero tener como root y corro el comando:
+-http-server -o
+
+Con eso levanto el server.
